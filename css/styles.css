@@ -86,6 +86,7 @@ padding: 24px 0;
 
 .address{
 font-style: normal;
+display: flex;
 }
 
 .address-item {
@@ -94,6 +95,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: inline-block;
+align-items: center;
+gap: 40px;
+margin-left: 156px;
+padding-top: 24px;
+padding-bottom: 24px;
+
 }
 
 .address-item:hover,
@@ -286,6 +293,11 @@ p
 {
   margin: 0;
 }
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
  button {
   cursor: pointer;
   border: none;
@@ -313,9 +325,26 @@ margin: auto;
 
 .container {
   width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.images-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-card {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+  gap: 8px;
+  border: 1px solid var(--footer-text-color)
 }
 
 .section-strategy-index{
@@ -336,17 +365,23 @@ left: 347px;
 }
 
 .mail{
-  display: flex;
+  align-items: flex-start;
+display: inline-block;
+padding: 24px 0;
   width: 153px;
-height: 24px;
-margin-left: 608px;
+  height: 24px;
+  left: 608px;
+  top: 24px;
 }
 
 .number{
-  width: 151px;
+  align-items: flex-start;
   display: inline-block;
-padding-top: 24px;
-padding-bottom: 24px;
+  padding: 24px 0;
+  width: 151px;
+  height: 24px;
+  left: 250px;
+  top: 24px;
 }
 
 .our-skills,
