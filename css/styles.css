@@ -1,0 +1,378 @@
+/** PODSTAWOWE STYLE **/
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color:#2e2f42;
+  --third-text-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --accent-text-color: #f4f4fd;
+  --logo-text-color:#404bbf;
+  --primary-background: #ffffff;
+  --secondary-background: #f4f4fd;
+  --footer-background: #2e2f42;
+  --button-active: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color:var(--primary-text-color);
+  background-color:var(--primary-background);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* HEADER*/
+
+.logo {
+  color: var(--button-active);
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+align-items: center;
+gap: 40px;
+margin-left: 156px;
+display: inline-block;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.second-logo {
+  color: var(--secondary-text-color);
+  flex-direction: row;
+align-items: center;
+}
+
+.nav-item {
+color: var(--secondary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+flex-direction: row;
+align-items: flex-start;
+display: inline-block;
+padding: 24px 0;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
+}
+
+.address{
+font-style: normal;
+}
+
+.address-item {
+  color: var(--primary-text-color);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+display: inline-block;
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--logo-text-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--footer-background);
+ padding: 188px 0;
+ align-items: center;
+}
+
+.hero-item {
+  color: var(--third-text-color);
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+width: 496px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 48px;
+}
+
+
+.hero-button {
+  background-color: var(--button-active);
+  color: var(--third-text-color);
+  font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+gap:10px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+margin-left: 636px;
+margin-top: 48px;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+  background-color: var(--logo-text-color);
+  color: var(--third-text-color);
+  border: 1px solid transparent;
+}
+.click-button:hover,
+.click-button:focus {
+  background-color: var(--logo-text-color);
+  color: var(--third-text-color);
+  border: 1px solid transparent;
+} 
+
+.our-skills {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+gap: 8px;
+}
+
+.description-skills {
+  color: var(--primary-text-color);
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+gap: 8px;
+}
+
+.our-team {
+  color: var(--secondary-text-color);
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-top: 102px;
+}
+
+
+.employee-item {
+  background-color: var(--secondary-background);
+}
+
+.names {
+color: var(--secondary-text-color);
+text-align: center;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.skills {
+  color:var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* FOOTER */ 
+
+.footer {
+  background-color:var(--footer-background);
+}
+
+.footer-desctription {
+  color: var(--footer-text-color);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+display: flex;
+width: 264px;
+height: 72px;
+margin-left: 156px;
+}
+
+
+.footer-logo {
+  color: var(--accent-text-color);
+}
+
+/* PORTFOLIO */
+
+.background-section-portfolio{
+background-color: var(--primary-background);
+}
+
+.click-button {
+  font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: var(--button-active);
+background-color: var(--secondary-background);
+}
+
+.bookmarks {
+  background-color: var(--primary-background);
+}
+
+.description-folder {
+  background-color: var(--primary-background);
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ZADANIE 3 */
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  margin-top: 72px;
+}
+
+h1, 
+h2, 
+h3, 
+p
+{
+  margin: 0;
+}
+ button {
+  cursor: pointer;
+  border: none;
+ }
+
+.body{
+  font-family: sans-serif;
+  width: 1440px;
+  height: 2592px;
+  margin: auto;
+}
+
+.body-portfolio{
+ font-family: sans-serif;
+width: 1440px;
+height: 2076px;
+margin: auto;
+}
+
+.header-container{
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+.container {
+  width: 1158px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-strategy-index{
+  display: flex;
+  width: 1128px;
+margin-left: 156px;
+margin-top: 102px;
+}
+
+.item-cont-nav{
+  display: flex;
+  flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 261px;
+left: 347px;
+}
+
+.mail{
+  display: flex;
+  width: 153px;
+height: 24px;
+margin-left: 608px;
+}
+
+.number{
+  width: 151px;
+  display: inline-block;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.our-skills,
+.description-skills{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+}
+
+/* FOOTER */
+
+.footer-index {
+  width: 1440px;
+height: 312px;
+margin-left: 0px;
+margin-top: 2280px;
+background: #2E2F42;
+}
+
+.footer-portfolio {
+  width: 1440px;
+height: 312px;
+margin-left: 0px;
+margin-top: 1764px;
+background: #2E2F42;
+}
+
