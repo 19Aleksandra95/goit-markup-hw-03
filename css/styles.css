@@ -224,9 +224,12 @@ letter-spacing: 0.02em;
 .footer-index{
   margin-left: 0px;
 margin-top: 120px;
-margin-bottom: 16px;
   display: inline-block;
   background-color: var(--footer-background);
+}
+
+.footer-web{
+  margin-bottom: 16px;
 }
 
 .footer-desctription {
