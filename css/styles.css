@@ -80,6 +80,7 @@ letter-spacing: 0.02em;
 flex-direction: row;
 align-items: flex-start;
 margin-left: 76px;
+padding: 24px 0 24px;
 }
 .nav-item:hover,
 .nav-item:focus {
