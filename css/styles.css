@@ -131,7 +131,7 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-display: flex;
+display: block;
 max-width: 496px;
 margin-left: auto;
 margin-right: auto;
@@ -181,6 +181,14 @@ margin-bottom: 8px
 line-height: 1.5;
 letter-spacing: 0.02em;
 gap: 8px;
+}
+
+.strategy-item{
+  flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
+.strategy-index{
+  margin-right: 24px;
 }
 
 .our-team {
@@ -406,13 +414,9 @@ flex-direction: column;
 align-items: flex-start;
 gap: 8px;
 margin-left: auto;
-padding: 120px 0 120px;
+padding:  96px 0 120px;
 }
 
-.section-one{
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  margin-right: 24px;
-}
 
 .portfolio-card-item {
 padding: 32px 16px;
