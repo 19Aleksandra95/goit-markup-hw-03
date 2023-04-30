@@ -17,7 +17,6 @@ body {
   color:var(--primary-text-color);
   background-color:var(--primary-background);
   align-items: center;
- 
 }
 
 .list {
@@ -25,8 +24,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin: 0;
-  padding: 0;
 }
 
 .link {
@@ -145,6 +142,7 @@ letter-spacing: 0.04em;
 cursor: pointer;
 align-items: center;
 display: flex;
+margin-right: auto;
 }
 
 .hero-button:hover,
@@ -253,14 +251,10 @@ background-color: var(--secondary-background);
 
 .bookmarks {
   background-color: var(--primary-background);
-  display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0px 0px 32px;
 gap: 32px;
-border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .description-folder {
@@ -292,8 +286,8 @@ letter-spacing: 0.02em;
 
 body{
   font-family: sans-serif;
-  padding: 0;
-  margin:0;
+  width: 1440px;
+  height: 2592px;
 }
 
 img{
@@ -318,6 +312,8 @@ ul {
   border: none;
  }
 
+
+
  .header {
   border-bottom: 1px solid var(--footer-text-color);
   box-sizing: border-box;
@@ -325,13 +321,13 @@ ul {
 
 .header-container {
   flex-direction: row;
+  display: flex
 }
 
  .container{
-  display: flex;
   width: 1158px;
-margin: 0 auto;
-padding: 0 15px;
+margin-right: auto;
+margin-left: auto;
 outline: 2px solid red;
  }
 
@@ -387,6 +383,8 @@ align-items: flex-start;
     min-width: 169px;
     height: 56px;
     gap:10px;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
 display: flex;
 flex-direction: row;
@@ -436,12 +434,8 @@ margin: 0 auto;
 
 .mail{
   align-items: flex-start;
-display: inline-block;
-padding: 24px 0;
-  width: 153px;
-  height: 24px;
-  left: 100px;
-  top: 24px;
+display: flex;
+gap: 40px;
 }
 
 .number{
@@ -450,7 +444,7 @@ padding: 24px 0;
   padding: 24px 0;
   width: 151px;
   height: 24px;
-  left: 250px;
+  left: 50px;
   top: 24px;
  right:40px;
 }
