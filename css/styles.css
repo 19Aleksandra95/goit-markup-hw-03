@@ -143,14 +143,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
-gap:10px;
-display: block;
-flex-direction: row;
-align-items: flex-start;
-margin: auto;
-padding: 16px 32px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+align-items: center;
+display: flex;
 }
 
 .hero-button:hover,
@@ -326,6 +320,7 @@ ul {
 
  .header {
   border-bottom: 1px solid var(--footer-text-color);
+  box-sizing: border-box;
  }
 
 .header-container {
@@ -366,26 +361,21 @@ gap: 8px;
 }
 
 .background-section-portfolio {
-  margin-top: 102px;
   display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 gap: 8px;
 margin-left: auto;
 margin-top: 102px;
-padding: 120px 0;
-}
-
-.skills-item{
-  flex-basis: calc((100% - 72px) / 4)
 }
 
 .portfolio-card-item {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
     margin-top: 32px;
     margin-bottom: 32px;
-    display: flex;
-    flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 16px;
@@ -397,17 +387,34 @@ padding: 120px 0;
     min-width: 169px;
     height: 56px;
     gap:10px;
-    cursor: pointer;
     text-decoration: none;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-margin: auto;
 background-color: var(--button-active);
 padding: 16px 32px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-  }
+}
+
+.port-btn{
+  justify-content: center;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+margin-left: 100px;
+}
+
+.port-button{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
   
 
 .strategy-index {
@@ -420,8 +427,11 @@ margin: 0 auto;
 
 .skills-strategy{
   display: flex;
-  margin-right: 24px;
-  margin-left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  
 }
 
 .mail{
