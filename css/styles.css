@@ -87,6 +87,7 @@ margin-left: 76px;
 
 .address{
 font-style: normal;
+ padding: 24px 0 24px;
 }
 
 .address-item {
@@ -98,13 +99,17 @@ display: inline-block;
 align-items: center;
 gap: 40px;
 margin-left: 500px;
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 24px 0 24px;
 }
 
 .address-item:hover,
 .address-item:focus {
   color: var(--logo-text-color);
+}
+
+.contact-address{
+  display: flex;
+  padding: 24px 0 24px;
 }
 
 /* HERO */
@@ -213,6 +218,15 @@ letter-spacing: 0.02em;
 
 .footer {
   background-color:var(--footer-background);
+  padding: 100px 0 100px;
+}
+
+.footer-index{
+  margin-left: 0px;
+margin-top: 120px;
+margin-bottom: 16px;
+  display: inline-block;
+  background-color: var(--footer-background);
 }
 
 .footer-desctription {
@@ -222,7 +236,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
-width: 264px;
+max-width: 264px;
 height: 72px;
 margin-left: 156px;
 }
@@ -346,6 +360,8 @@ outline: 2px solid red;
  .nav {
   display: flex;
   align-items: center;
+   padding: 24px 0 24px;
+
  }
 
 
@@ -448,25 +464,9 @@ gap: 40px;
 .number{
   align-items: flex-start;
   display: inline-block;
-  padding: 24px 0;
   width: 151px;
   height: 24px;
   left: 50px;
   top: 24px;
  right:40px;
-}
-
-
-.footer-index {
-  width: 1440px;
-margin-left: 0px;
-margin-top: 120px;
-background: #2E2F42;
-}
-
-.footer-portfolio {
-  width: 1440px;
-margin-left: 0px;
-margin-top:120px;
-background: #2E2F42;
 }
