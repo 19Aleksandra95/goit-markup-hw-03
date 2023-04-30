@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous"
+ referrerpolicy="no-referrer">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
   </head>
-  <body class="body">
-    <header class="">
+  <body>
+    <header class="header">
       <!--NAVIGATION-->
-      <nav class="nav header-container">
+      <div class="header-container container">
+      <nav class="nav">
         <a class="logo link" href="./index.html">Web<span class="second-logo">Studio</span>
          </a>
-         <div class="item-cont-nav">
-        <ul class="list container">
+        <ul class="list">
           <li class=""><a class="nav-item link" href="./index.html"><span>Studio</span></a></li>
           <li class=""><a class="nav-item link" href="./portfolio.html">Portfolio</a></li>
           <li class=""><a class="nav-item link" href="">Contacts</a></li>
         </ul>
-      </div>
       </nav>
 <!--CONTACTS-->
-      <address class="address header-container">
-        <ul class="list container">
+      <address class="address">
+        <ul class="list">
           <li>
             <a class="address-item link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -39,6 +46,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
 
     <main>
@@ -53,9 +61,9 @@
      
 
 <!--OUR STRATEGY-->
-      <section class="background-section-portfolio section-strategy-index">
+      <section class="background-section-portfolio">
         <h2 class="team" hidden>Our Strategy</h2>
-        <ul class="list container">
+        <ul class="list strategy-index">
           <li>
             <h3 class="our-skills">Strategy</h3>
             <p class="description-skills">
@@ -92,7 +100,7 @@
       <!--IMAGES-->
       <section class="background-section-portfolio">
         <h2 class="our-team">What are we doing</h2>
-        <ul class="list container">
+        <ul class="list">
           <li class="bookmarks">
             <img src="./images/komp.jpg"
               alt="komputer"
@@ -115,7 +123,7 @@
 
       <section class="employee-item">
         <h2 class="our-team">Our Team</h2>
-        <ul class="list container">
+        <ul class="list">
           <li class="bookmarks">
             <img src="./images/a.jpg"
               alt="Mark Guerrero"

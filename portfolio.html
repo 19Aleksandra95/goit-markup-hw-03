@@ -11,12 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./css/styles.css" >
     <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css" >
   </head>
-  <body class="body-portfolio">
-    <header>
+  <body>
+    <header class="header">
       <!--NAVIGATION-->
+      <div class="header-container container">
      <nav class="nav">
         <a class="logo link" href="./index.html">Web<span class="second-logo">Studio</span>
         </a>
@@ -33,18 +34,19 @@
         </ul>
     </nav>
     <!--CONTACTS-->
-    <address class="address header-container">
-        <ul class="list container">
+    <address class="address">
+        <ul class="list">
           <li>
-            <a class="address-item link" href="mailto:info@devstudio.com"
+            <a class="address-item link mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address-item link number" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
     </address>
+  </div>
     </header>
     <main>
       
@@ -62,103 +64,95 @@
 
 <!--BOOKMARKS-->
 
-        <ul class="list container images-portfolio">
-           <li class="bookmarks"> 
+        <ul class="list portfolio-cards">
+           <li class="bookmarks port-images"> 
             <a href="" class="link">
              <img src="./images/porfolio/banking-app.jpg"
               alt="Banking App Interface Concept"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
           <h2 class="description-folder">Banking App Interface Concept</h2>
           <p class="text">App</p>
         </div></a>
         </li>
           
-        <li class="bookmarks"> 
+        <li class="bookmarks port-images"> 
             <a href="" class="link">
             <img src="./images/porfolio/cashless-payment.jpg"
               alt="Cashless Payment"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
           <h2 class="description-folder">Cashless Payment</h2>
-          <p class="text">Marketing</p>
-        </div></a>
+          <p class="text">Marketing</p></div></a>
         </li>
           
         
-         <li class="bookmarks"> 
+         <li class="bookmarks port-images"> 
             <a href="" class="link">
             <img src="./images/porfolio/meditation-app.jpg"
               alt="Meditation App"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
           <h2 class="description-folder">Meditation App</h2>
-          <p class="text">App</p>
-        </div></a>
+          <p class="text">App</p></div></a>
         </li>
 
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/taxi-service.jpg"
               alt="Taxi Service"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
             <h2 class="description-folder">Taxi Service</h2>
-            <p class="text">Marketing</p>
-          </div></a>
+            <p class="text">Marketing</p></div></a>
           </li>
           
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/screen-illustration.jpg"
               alt="Screen Illustrations"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
             <h2 class="description-folder">Screen Illustrations</h2>
-            <p class="text">Design</p>
-          </div></a>
+            <p class="text">Design</p></div></a>
           </li>
           
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/online-courses.jpg"
               alt="Online Courses"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
             <h2 class="description-folder">Online Courses</h2>
-            <p class="text">Marketing</p>
-          </div></a>
+            <p class="text">Marketing</p></div></a>
           </li>
 
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/instagram-stories.jpg"
               alt="Instagram Stories Concept"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
             <h2 class="description-folder">Instagram Stories Concept</h2>
-            <p class="text">Design</p>
-              </div></a>
+            <p class="text">Design</p></div></a>
           </li>
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/organic-food.jpg"
             alt="OrganicFood"
             width="360">
-              <div class="porfolio-c ard">
+            <div class="portfolio-card-item">
             <h2 class="description-folder">Organic Food</h2>
-            <p class="text">Web Site</p>
-              </div></a>
+            <p class="text">Web Site</p></div></a>
           </li>
-          <li class="bookmarks">
+          <li class="bookmarks port-images">
             <a href="" class="link">
             <img src="./images/porfolio/fresh-coffee.jpg"
               alt="Fresh Coffee"
               width="360">
-              <div class="porfolio-card">
+              <div class="portfolio-card-item">
             <h2 class="description-folder">Fresh Coffee</h2>
-            <p class="text">Web Site</p>
-          </div></a>
+            <p class="text">Web Site</p></div></a>
           </li>
         </ul>
       </section>
@@ -166,7 +160,7 @@
 
     <!--Footer-->
 
-    <footer class="footer">
+    <footer class="footer footer-portfolio">
       <a class="logo link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
       <p class="footer-desctription">
         Increase the flow of customers and sales for your business with digital
