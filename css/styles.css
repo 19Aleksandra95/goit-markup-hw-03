@@ -187,10 +187,9 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-top: 102px;
-display: flex;
 text-align: center;
-margin-left: 559px;
 margin-bottom: 72px;}
+
 
 
 .employee-item {
@@ -204,6 +203,16 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-top: 32px;
+}
+
+.employee-names{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
 }
 
 .skills {
@@ -338,11 +347,9 @@ ul {
  }
 
 
-
  .header {
   border-bottom: 1px solid var(--footer-text-color);
   box-sizing: border-box;
-  padding: 24px 0 24px;
  }
 
 .header-container {
@@ -363,8 +370,6 @@ outline: 2px solid red;
  .nav {
   display: flex;
   align-items: center;
-   padding: 24px 0 24px;
-
  }
 
 
