@@ -183,11 +183,11 @@ letter-spacing: 0.02em;
 gap: 8px;
 }
 
-.strategy-item{
-  flex-basis: calc((100% - 3 * 24px) / 4)
+.background-section-portfolio{
+  width: calc((100% - 72px) / 4); 
 }
 
-.strategy-index{
+.background-section-portfolio .strategy-index:not(:last-child){
   margin-right: 24px;
 }
 
@@ -209,9 +209,6 @@ margin-bottom: 72px;
   padding: 120px 0;
 }
 
-.team-item {
-  width: calc((100% - 3 * 24px) / 4) 
-}
 
 .employee-item .team-item:not(:last-child){
   margin-right: 24px;
