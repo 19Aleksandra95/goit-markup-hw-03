@@ -423,6 +423,9 @@ margin-left: auto;
 .section-two-three{
   padding-top:120px;
   padding-bottom: 120px;
+}
+
+.gap-list{
   gap:24px;
 }
 
