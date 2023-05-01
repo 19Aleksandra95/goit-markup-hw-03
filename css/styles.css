@@ -198,7 +198,8 @@ margin-bottom: 72px;
 
 .employee-item {
   background-color: var(--secondary-background);
-  padding: 120px 0;
+  padding-bottom: 120px;
+  gap:24px;
 }
 
 
@@ -279,6 +280,11 @@ margin-left: 156px;
 
 .background-section-portfolio{
 background-color: var(--primary-background);
+}
+
+.section-two{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .click-button {
