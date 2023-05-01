@@ -149,7 +149,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 align-items: center;
-display: flex;
+display: block;
 margin-right: auto;
 }
 
@@ -278,6 +278,10 @@ margin-left: 156px;
 
 .background-section-portfolio{
 background-color: var(--primary-background);
+}
+
+.padding-index {
+  padding: 120px 0 120px
 }
 
 .click-button {
@@ -476,9 +480,13 @@ margin: 0 auto;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
+  margin-right: 24px;
   margin-left: 0;
   gap: 8px;
-  
+}
+
+.technologies {
+  margin-right: 0
 }
 
 .mail{
