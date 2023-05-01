@@ -201,10 +201,6 @@ margin-bottom: 72px;
   padding: 120px 0;
 }
 
-/*SEKCJA 3 */
-.technologie-staff .technologie:not(:last-child){
-  margin-right: 24px;
-}
 
 /*SEKCJA 4 */
 .employee-item .team-item:not(:last-child){
