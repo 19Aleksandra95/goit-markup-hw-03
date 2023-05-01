@@ -418,7 +418,11 @@ align-items: flex-start;
 gap: 8px;
 margin-top: 102px;
 margin-left: auto;
-padding:  120x 0 120px;
+}
+
+.section-two-three{
+  padding-top:120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-section{
