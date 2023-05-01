@@ -209,8 +209,12 @@ margin-bottom: 72px;
   padding: 120px 0;
 }
 
-.employee-item {
+.team-item {
   width: calc((100% - 3 * 24px) / 4) 
+}
+
+.employee-item .team-item:not(:last-child){
+  margin-right: 24px;
 }
 
 
@@ -504,8 +508,6 @@ gap: 40px;
 }
 
 .team-item{
-  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #f4f4fd;
-  margin-right: 24px;
 }
