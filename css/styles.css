@@ -420,6 +420,10 @@ margin-left: auto;
 padding:  120x 0 120px;
 }
 
+.portfolio-section{
+  padding: 96px 0 120px;
+}
+
 
 .portfolio-card-item {
 padding: 32px 16px;
@@ -475,12 +479,12 @@ margin: 0 auto;
 }
 
 .skills-strategy{
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  margin-right: 24px;
-}
+  gap: 24px;}
+
 
 
 .contacts{
