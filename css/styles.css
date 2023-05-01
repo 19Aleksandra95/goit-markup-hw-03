@@ -23,8 +23,12 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
   padding-left: 0;
+}
+
+.list-employee {
+  gap:24px;
 }
 
 .link {
@@ -110,7 +114,7 @@ padding: 24px 0 24px;
 .contact-address{
   display: flex;
   padding: 24px 0 24px;
-  margin-left: 115px;
+  margin-left:auto;
 }
 
 /* HERO */
@@ -198,6 +202,8 @@ margin-bottom: 72px;
 .employee-item {
   background-color: var(--secondary-background);
   gap:24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 
@@ -240,7 +246,6 @@ padding: 32px 16px;
 
 .footer-index{
 margin-top: 120px;
-  display: inline-block;
   background-color: var(--footer-background);
 }
 
@@ -383,6 +388,7 @@ outline: 2px solid red;
  .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
  }
 
 
